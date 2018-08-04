@@ -1,3 +1,5 @@
+import copy
+
 from conan.packager import ConanMultiPackager
 
 
