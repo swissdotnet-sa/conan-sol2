@@ -4,25 +4,19 @@ Conan package for [sol2](https://github.com/ThePhD/sol2)
 
 The packages generated with this **conanfile** can be found on [here](https://bintray.com/zimmerk/conan).
 
-## Package Status
-
-| Bintray | Travis | Appveyor |
-|---------|--------|----------|
-|[ ![Download](https://api.bintray.com/packages/zimmerk/conan/sol2%3Azimmerk/images/download.svg) ](https://bintray.com/zimmerk/conan/sol2%3Azimmerk/_latestVersion)|[![Build Status](https://travis-ci.org/AtaLuZiK/conan-sol2.svg?branch=release%2F2.20.4)](https://travis-ci.org/AtaLuZiK/conan-sol2)|[![Build status](https://ci.appveyor.com/api/projects/status/pry8jud72vnow8h1/branch/release/2.20.4?svg=true)](https://ci.appveyor.com/project/AtaLuZiK/conan-sol2/branch/release/2.20.4)|
-
 ## Reuse the packages
 
 ### Basic setup
 
 ```
-conan install sol2/2.20.4@zimmerk/stable
+conan install sol2/2.20.6@swissdotnet/stable
 ```
 
 ### Project setup
 
 ```
 [requires]
-sol2/2.20.4@zimmerk/stable
+sol2/2.20.6@swissdotnet/stable
 
 [options]
 # Take a look for all avaliable options in conanfile.py
